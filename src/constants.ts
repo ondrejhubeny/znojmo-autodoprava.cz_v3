@@ -123,8 +123,8 @@ export const FLEET: Vehicle[] = [
     id: 'sprinter-gold',
     model: 'Mercedes-Benz Sprinter (Zlatý)',
     subtitle: 'Zájezdový mikrobus s nadstandardní výbavou',
-    badge: 'Minibus 20+1',
-    capacity: '20+1 míst',
+    badge: 'Minibus 20 míst',
+    capacity: '20 míst',
     luggage: 'Velký zavazadlový prostor',
     features: [
       'Polohovatelná zájezdová sedadla',
@@ -138,8 +138,8 @@ export const FLEET: Vehicle[] = [
     id: 'sprinter-black',
     model: 'Mercedes-Benz Sprinter (Černý)',
     subtitle: 'Reprezentativní černý mikrobus pro skupiny a firmy',
-    badge: 'VIP Minibus 20+1',
-    capacity: '20+1 míst',
+    badge: 'VIP Minibus 20 míst',
+    capacity: '20 míst',
     luggage: 'Velký zavazadlový prostor',
     features: [
       'Komfortní polohovatelná sedadla',
@@ -153,8 +153,8 @@ export const FLEET: Vehicle[] = [
     id: 'setra',
     model: 'Autobus Setra',
     subtitle: 'Dálkový zájezdový autokar pro velké výpravy',
-    badge: 'Autokar 48+1',
-    capacity: '48+1 míst',
+    badge: 'Autokar 52 míst',
+    capacity: '52 míst',
     luggage: 'Obří podpalubní kufr',
     features: [
       'Luxusní dálkový autokar s palubním WC',
@@ -194,7 +194,7 @@ export const FAQS = [
   {
     question: 'Pro kolik osob dokážete zajistit přepravu?',
     answer:
-      'Díky vlastnímu rozmanitému vozovému parku přepravíme jak jednotlivce či páry v luxusním Mercedesu třídy E (4 místa), rodiny v minivanu Mercedes Viano (7 míst), menší skupiny ve dvou mikrobusech Mercedes Sprinter (každý 20+1 míst), tak i velké výpravy v zájezdovém autobusu Setra (48+1 míst).',
+      'Díky vlastnímu rozmanitému vozovému parku přepravíme jak jednotlivce či páry v luxusním Mercedesu třídy E (4 místa), rodiny v minivanu Mercedes Viano (7 míst), menší skupiny ve dvou mikrobusech Mercedes Sprinter (každý 20 míst), tak i velké výpravy v zájezdovém autobusu Setra (52 míst).',
   },
   {
     question: 'Co když má můj let při návratu zpoždění?',

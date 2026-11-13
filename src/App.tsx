@@ -302,8 +302,8 @@ function App() {
               <p className="v3-hero-lead">
                 Cestujte v maximálním pohodlí a bezpečí s profesionálními řidiči. Přepravíme
                 jednotlivce v luxusním <strong>Mercedesu třídy E (4 místa)</strong>, rodiny ve{' '}
-                <strong>Vianu (7 míst)</strong>, skupiny v <strong>mikrobusech Sprinter (20+1 míst)</strong>{' '}
-                i velké výpravy v <strong>autokaru Setra (48+1 míst)</strong>.
+                <strong>Vianu (7 míst)</strong>, skupiny v <strong>mikrobusech Sprinter (20 míst)</strong>{' '}
+                i velké výpravy v <strong>autokaru Setra (52 míst)</strong>.
               </p>
 
               <div className="v3-hero-buttons">
@@ -323,7 +323,7 @@ function App() {
                 </div>
                 <div className="v3-metric-divider" />
                 <div className="v3-metric-item">
-                  <strong>4 až 49 míst</strong>
+                  <strong>4 až 52 míst</strong>
                   <span>vlastní flotila vozů</span>
                 </div>
                 <div className="v3-metric-divider" />
@@ -803,7 +803,7 @@ function App() {
           <div className="v3-footer-col">
             <h4>Rychlá navigace</h4>
             <ul>
-              <li><a href="#vozovy-park">Vozový park (4 až 48+1 míst)</a></li>
+              <li><a href="#vozovy-park">Vozový park (4 až 52 míst)</a></li>
               <li><a href="#sluzby">Naše služby</a></li>
               <li><a href="#jak-to-funguje">Jak to funguje</a></li>
               <li><a href="#recenze">Recenze a reference</a></li>
