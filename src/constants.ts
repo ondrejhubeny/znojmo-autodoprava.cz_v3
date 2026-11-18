@@ -1,51 +1,51 @@
 import type { Service, Vehicle, ContactInfo } from './types';
 
-// Medailonky vozidel (hlavní fotky)
-import eckoMain from './assets/vozidla/ecko.JPG';
-import vianoMain from './assets/vozidla/viano.JPG';
-import sprinterZlatyMain from './assets/vozidla/sprinter_zlaty.JPG';
-import sprinterCernyMain from './assets/vozidla/sprinter_cerny.JPG';
-import setraMain from './assets/vozidla/setra.JPG';
+// Medailonky vozidel (hlavní exteriérové fotky z public/vozidla/)
+const eckoMain = '/vozidla/mercedes-tridy-e.jpg';
+const vianoMain = '/vozidla/mercedes-viano.jpg';
+const sprinterZlatyMain = '/vozidla/mercedes-sprinter-zlaty.jpg';
+const sprinterCernyMain = '/vozidla/mercedes-sprinter-cerny.jpg';
+const setraMain = '/vozidla/autobus-setra.jpg';
 
-// Galerie - Mercedes-Benz E-Class (6 fotek)
-import ecko1 from './assets/vozidla/ecko/IMG_0724.JPG';
-import ecko2 from './assets/vozidla/ecko/IMG_0739.JPG';
-import ecko3 from './assets/vozidla/ecko/IMG_0748.JPG';
-import ecko4 from './assets/vozidla/ecko/IMG_0767.JPG';
-import ecko5 from './assets/vozidla/ecko/IMG_0769.JPG';
-import ecko6 from './assets/vozidla/ecko/IMG_0770.JPG';
+// Galerie - Mercedes-Benz Třídy E (01 až 06)
+const ecko1 = '/vozidla/ecko/mercedes-tridy-e-01.jpg';
+const ecko2 = '/vozidla/ecko/mercedes-tridy-e-02.jpg';
+const ecko3 = '/vozidla/ecko/mercedes-tridy-e-03.jpg';
+const ecko4 = '/vozidla/ecko/mercedes-tridy-e-04.jpg';
+const ecko5 = '/vozidla/ecko/mercedes-tridy-e-05.jpg';
+const ecko6 = '/vozidla/ecko/mercedes-tridy-e-06.jpg';
 
-// Galerie - Mercedes-Benz Viano (6 fotek)
-import viano1 from './assets/vozidla/viano/IMG_0780.JPG';
-import viano2 from './assets/vozidla/viano/IMG_0782.JPG';
-import viano3 from './assets/vozidla/viano/IMG_0787.JPG';
-import viano4 from './assets/vozidla/viano/IMG_0789.JPG';
-import viano5 from './assets/vozidla/viano/IMG_0793.JPG';
-import viano6 from './assets/vozidla/viano/IMG_0796.JPG';
+// Galerie - Mercedes-Benz Viano (01 až 06)
+const viano1 = '/vozidla/viano/mercedes-viano-01.jpg';
+const viano2 = '/vozidla/viano/mercedes-viano-02.jpg';
+const viano3 = '/vozidla/viano/mercedes-viano-03.jpg';
+const viano4 = '/vozidla/viano/mercedes-viano-04.jpg';
+const viano5 = '/vozidla/viano/mercedes-viano-05.jpg';
+const viano6 = '/vozidla/viano/mercedes-viano-06.jpg';
 
-// Galerie - Mercedes-Benz Sprinter Zlatý (6 fotek)
-import sz1 from './assets/vozidla/sprinter_zlaty/IMG_0819.JPG';
-import sz2 from './assets/vozidla/sprinter_zlaty/IMG_0833.JPG';
-import sz3 from './assets/vozidla/sprinter_zlaty/IMG_0835.JPG';
-import sz4 from './assets/vozidla/sprinter_zlaty/IMG_0837.JPG';
-import sz5 from './assets/vozidla/sprinter_zlaty/IMG_0843.JPG';
-import sz6 from './assets/vozidla/sprinter_zlaty/IMG_0845.JPG';
+// Galerie - Mercedes-Benz Sprinter Zlatý (01 až 06)
+const sz1 = '/vozidla/sprinter-zlaty/mercedes-sprinter-zlaty-01.jpg';
+const sz2 = '/vozidla/sprinter-zlaty/mercedes-sprinter-zlaty-02.jpg';
+const sz3 = '/vozidla/sprinter-zlaty/mercedes-sprinter-zlaty-03.jpg';
+const sz4 = '/vozidla/sprinter-zlaty/mercedes-sprinter-zlaty-04.jpg';
+const sz5 = '/vozidla/sprinter-zlaty/mercedes-sprinter-zlaty-05.jpg';
+const sz6 = '/vozidla/sprinter-zlaty/mercedes-sprinter-zlaty-06.jpg';
 
-// Galerie - Mercedes-Benz Sprinter Černý (6 fotek)
-import sc1 from './assets/vozidla/sprinter_cerny/IMG_0860.JPG';
-import sc2 from './assets/vozidla/sprinter_cerny/IMG_0867.JPG';
-import sc3 from './assets/vozidla/sprinter_cerny/IMG_0869.JPG';
-import sc4 from './assets/vozidla/sprinter_cerny/IMG_0870.JPG';
-import sc5 from './assets/vozidla/sprinter_cerny/IMG_0874.JPG';
-import sc6 from './assets/vozidla/sprinter_cerny/IMG_0877.JPG';
+// Galerie - Mercedes-Benz Sprinter Černý (01 až 06)
+const sc1 = '/vozidla/sprinter-cerny/mercedes-sprinter-cerny-01.jpg';
+const sc2 = '/vozidla/sprinter-cerny/mercedes-sprinter-cerny-02.jpg';
+const sc3 = '/vozidla/sprinter-cerny/mercedes-sprinter-cerny-03.jpg';
+const sc4 = '/vozidla/sprinter-cerny/mercedes-sprinter-cerny-04.jpg';
+const sc5 = '/vozidla/sprinter-cerny/mercedes-sprinter-cerny-05.jpg';
+const sc6 = '/vozidla/sprinter-cerny/mercedes-sprinter-cerny-06.jpg';
 
-// Galerie - Autobus Setra (6 fotek)
-import setra1 from './assets/vozidla/setra/IMG_0893.JPG';
-import setra2 from './assets/vozidla/setra/IMG_0897.JPG';
-import setra3 from './assets/vozidla/setra/IMG_0899.JPG';
-import setra4 from './assets/vozidla/setra/IMG_0909.JPG';
-import setra5 from './assets/vozidla/setra/IMG_0910.JPG';
-import setra6 from './assets/vozidla/setra/IMG_0911.JPG';
+// Galerie - Autobus Setra (01 až 06)
+const setra1 = '/vozidla/setra/autobus-setra-01.jpg';
+const setra2 = '/vozidla/setra/autobus-setra-02.jpg';
+const setra3 = '/vozidla/setra/autobus-setra-03.jpg';
+const setra4 = '/vozidla/setra/autobus-setra-04.jpg';
+const setra5 = '/vozidla/setra/autobus-setra-05.jpg';
+const setra6 = '/vozidla/setra/autobus-setra-06.jpg';
 
 export const CONTACT_INFO: ContactInfo = {
   owner: 'Petr Chochola',
