@@ -52,7 +52,7 @@ export const CONTACT_INFO: ContactInfo = {
   address: 'Vančurova 13, 669 02 Znojmo',
   phones: ['+420 608 707 225'],
   email: 'petrchochola@seznam.cz',
-  ico: '49407891',
+  ico: '64432157',
 };
 
 export const SERVICES: Service[] = [
@@ -121,7 +121,7 @@ export const FLEET: Vehicle[] = [
   },
   {
     id: 'sprinter-gold',
-    model: 'Mercedes-Benz Sprinter (Zlatý)',
+    model: 'Mercedes-Benz Sprinter',
     subtitle: 'Zájezdový mikrobus s nadstandardní výbavou',
     badge: 'Minibus 20 míst',
     capacity: '20 míst',
@@ -129,22 +129,22 @@ export const FLEET: Vehicle[] = [
     features: [
       'Polohovatelná zájezdová sedadla',
       'Výkonná klimatizace a nezávislé topení',
-      'Mikrofon pro průvodce a tažné zařízení',
+      'Mikrofon pro průvodce, TV a tažné zařízení',
     ],
     image: sprinterZlatyMain,
     gallery: [sz1, sz2, sz3, sz4, sz5, sz6],
   },
   {
     id: 'sprinter-black',
-    model: 'Mercedes-Benz Sprinter (Černý)',
-    subtitle: 'Reprezentativní černý mikrobus pro skupiny a firmy',
-    badge: 'VIP Minibus 20 míst',
+    model: 'Mercedes-Benz Sprinter',
+    subtitle: 'Zájezdový mikrobus s nadstandardní výbavou',
+    badge: 'Minibus 20 míst',
     capacity: '20 míst',
     luggage: 'Velký zavazadlový prostor',
     features: [
-      'Komfortní polohovatelná sedadla',
-      'Tónovaná panoramatická skla a klimatizace',
-      'Skvělá volba pro firemní akce, sportovce i svatby',
+      'Polohovatelná zájezdová sedadla',
+      'Výkonná klimatizace a nezávislé topení',
+      'Mikrofon pro průvodce, TV a tažné zařízení',
     ],
     image: sprinterCernyMain,
     gallery: [sc1, sc2, sc3, sc4, sc5, sc6],

@@ -727,7 +727,9 @@ function App() {
                       onChange={(e) => setSelectedCarForm(e.target.value)}
                     >
                       <option value="">Doporučte mi vhodný vůz podle počtu osob</option>
-                      {FLEET.map((v) => {
+                      {Array.from(
+                        new Map(FLEET.map((v) => [`${v.model} (${v.capacity})`, v])).values()
+                      ).map((v) => {
                         const val = `${v.model} (${v.capacity})`;
                         return (
                           <option key={v.id} value={val}>
